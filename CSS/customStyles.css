@@ -112,6 +112,14 @@ font-size:0.65rem;
   width:100%;
 
 }
+.dropdown-menu{
+  background: rgb(118, 130, 241);
+  /* color: white; */
+}
+.dropdown-menu a{
+  /* background: rgb(118, 130, 241); */
+  color: white;
+}
 .nav-item a{
   color:white;
   font-size: 11px;
@@ -232,10 +240,10 @@ h1 {
 }
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.1);
+  50% { transform: scale(1.1);}
   100% { transform: scale(1); }
   }
-}
+
 .legalization:hover {
   animation: shake 1.0s infinite;
 }
