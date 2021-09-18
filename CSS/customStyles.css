@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+}
+
+body {
+  background: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+.body-container {
+  max-width: 992px;
+  margin: 0 auto !important;
+  float: none !important;
+  border: 3px solid rgba(0, 0, 0, 0.027);
+}
+p {
+  font-size: 0.7rem;
+}
+/* --- Side-aligned-Social icons --- */
+.site-logo-and-top-social{
+  margin-bottom: 20px;
+  border-top: 1px solid rgba(238, 238, 238, 0.575);
+}
+.top-social{
+  padding-top:30px;
+  text-align: right;
+  font-size:1.5rem;
+}
+.top-social .fa-facebook-square{
+  color:#3B5998;
+}
+.top-social .fa-twitter{
+  color:#08a0e9
+}
+ .top-social .fa-youtube{
+  color: rgb(179, 15, 15) !important; 
+}
+.top-social .fa-instagram{
+  color: #dd378e;
+}
+.social-buttons {
+  position: fixed;
+  right: 0;
+  top: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.social-buttons a {
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0.8px 0;
+}
+
+.social-buttons a::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #0070c9;
+  z-index: -1;
+}
+
+.social-buttons a:hover::before {
+  transform: translateX(-1px);
+  color: #F061A8;
+}
+
+/*-- COVID-19 and GERD --*/
+/*-- top ADDRESS --*/
+.top-menu{
+ color:#317dbf !important;
+}
+.covid-gerd-left{
+   display: inline-block;
+text-align: center;
+}
+.covid-gerd-left a{
+font-size:0.65rem;
+}
+.top-address-right{
+  text-align:right;
+  padding-right: 15px;
+  display: inline-block;
+  font-size:0.8rem;
+
+}
+.gerd a:hover {
+  color: rgb(243, 100, 100);
+  text-decoration: none;
+}
+ .covid-19 a:hover {
+  color: rgb(243, 100, 100);
+  text-decoration: none;
+}
+/*-- ----------Logo sec-------- --*/
+
+/*-- ----------top Social Media sec-------- --*/
+
+/*-- ----------Nav sec-------- --*/
+.navbar{
+  background-color: #1f5ac1;
+  height:48px;
+  width:100%;
+
+}
+.nav-item a{
+  color:white;
+  font-size: 11px;
+  font-weight:200;
+}
+/*-- ----------Carousel sec-------- --*/
+
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+
+#custCarousel .carousel-indicators {
+  position: static;
+  margin-top: 20px;
+}
+
+#custCarousel .carousel-indicators > li {
+  width: 100%;
+  font-size: 0.6rem;
+}
+
+.carousel-indicators li {
+  width: 100%;
+  height: auto;
+  text-indent: unset;
+
+}
+
+.carousel .carousel-indicators li.active {
+  background-color: rgb(32, 29, 29);
+  color: azure;
+  padding: 0.5rem;
+}
+/* .carousel-item img{
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  width: 100%;
+} */
+
+/*-- ----------Description sec-------- --*/
+/*-- Title --*/
+h2 {color: #007DBA;
+    font-size: 20px;
+    font-family: "Roboto",sans-serif !important;
+    line-height: 33px;
+    letter-spacing: -1.2px;
+}
+h1 {
+  color: #2ab3f8;
+  font-size: 24px;
+  margin: 10px;
+  font-family: Arial, Geneva, Helvetica, sans-serif !important;
+  line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.service-heading{
+  text-align: center;
+}
+/*-- Address --*/
+/*-- Opening hours --*/
+/*-- Services --*/
+/*-- Contact us --*/
+
+/*-- ----------Message and Noticesec-------- --*/
+/*-- Title --*/
+.mule-left{
+  float: left;
+  margin-right: 15px;
+}
+
+.card {
+  border: none;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+/*-- ----------Consular Services sec-------- --*/
+.imgs {
+  text-align: center;
+}
+.ineva img:hover {
+  transform: skew(30deg);
+  opacity: 0.5;
+  /* transform: skew(0.5rad); */
+}
+.passport img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+}
+.laisez-Passer img:hover {
+  /* transform:scale(1.15); */
+  cursor: pointer;
+  transform: rotate(360deg) scale(1) translateY(10px);
+  transition: .5s all ease;
+  z-index: 400;
+}
+.attorney img:hover {
+ 
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(240, 6, 6, 0.74), 0 0 20px rgba(94, 84, 3, 0.2);
+  outline-color: rgba(61, 33, 33, 0);
+  outline-offset: 12px;
+  image-resolution:unset; 
+}
+
+.ethio-origin:hover {
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;   
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1);
+  100% { transform: scale(1); }
+  }
+}
+.legalization:hover {
+  animation: shake 1.0s infinite;
+}
+@keyframes shake {
+  0% {
+      transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+      transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+      transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+      transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+      transform: translate(1px, -2px) rotate(0deg);
+  }
+}
+
+/*-- INVEA --*/
+/*-- PASSPORT --*/
+/*-- LAISSEZ-PASSER --*/
+/*-- Auth & Legalization --*/
+/*-- VISA --*/
+/*-- Power of Attorney --*/
+
+/*-- ----------Footer sec-------- --*/
+/*-- ----------bottom Social Media sec-------- --*/
+#social-footer a {
+  color: rgba(0, 0, 0, 0.349);
+  font-size: 1.5rem;
+}
+#social-footer a:hover {
+  color: rgb(243, 100, 100);
+}
+.footer-container {
+  text-align: center;
+}
+/*-- ----------Developer sec-------- --*/

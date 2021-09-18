@@ -1,0 +1,12 @@
+-page at center of screen
+https://designers.hubspot.com/docs/snippets/design/centering-your-website-using-max-width-and-auto-margins
+
+-side-aligned social media icons
+https://stackoverflow.com/questions/65352076/how-to-align-social-media-icons-vertically-on-left-side
+
+https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp
+
+https://stackoverflow.com/questions/15703940/need-to-align-social-media-icons-with-the-right-side-of-the-page
+
+-hover effects
+https://www.joshwcomeau.com/animation/css-transitions/
